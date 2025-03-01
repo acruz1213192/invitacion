@@ -1,0 +1,40 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(../Parisienne.ttf);
+}
+
+@font-face {
+    font-family: defaultFont;
+    src: url(../cmunti.ttf);
+}
+
+body {
+    font-family: defaultFont !important;
+    font-size: 1.1em;
+}
+
+#spinner {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .5s ease-out, visibility 0s linear .5s;
+    z-index: 99999;
+}
+
+#spinner.show {
+    transition: opacity .5s ease-out, visibility 0s linear 0s;
+    visibility: visible;
+    opacity: 1;
+}
+
+.special-font-bautizo {
+    font-family: myFirstFont !important;
+    color: #9c7f70;
+    font-size: 2.5em;;
+    font-weight: 600;
+}
+
+.special-font-joaquin {
+    font-family: myFirstFont !important;
+    color:#4598b6;
+    font-size: 4em;;
+}
