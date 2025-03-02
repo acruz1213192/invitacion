@@ -24,14 +24,15 @@
 							case "7":
 								$("#pases").text(invitados);
 							default:
-								window.location.href = "notfound.html";
+								//window.location.href = "notfound.html";
 						}
 					} else {
-						window.location.href = "notfound.html";
+						//window.location.href = "notfound.html";
 					}
 				
 				} catch(err) {
-				  window.location.href = "notfound.html";
+				  //console.log(err);
+				  //window.location.href = "notfound.html";
 				}
 					
             }
